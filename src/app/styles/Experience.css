@@ -1,0 +1,10 @@
+body {
+  background-color: #1a202c;
+}
+.experience, .card-title, .text-body-secondary, .card-text{
+    color: white !important;
+}
+.card{
+    background-color: #1a202c;
+    border-color: rgb(100, 100, 100);
+}
