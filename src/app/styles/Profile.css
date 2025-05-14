@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Add this rule */
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+
+.home {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a202c;
+  min-height: 100vh; 
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  display: block; 
+}
+
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in;
+}
+
+.Media {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.Media a {
+  color: white;
+  transition: color 0.3s;
+}
+
+.dark-mode .Media a:hover {
+  color: #ffc107;
+}
+
+.light-mode .Media a:hover {
+  color: #0077cc;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  color: inherit;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
