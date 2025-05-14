@@ -2,7 +2,6 @@
 'use client';
 import Link from 'next/link';
 import '../styles/navbar.css';  // Import the CSS file
-import { useState } from 'react';
 
 export default function Navbar() {
   return (
