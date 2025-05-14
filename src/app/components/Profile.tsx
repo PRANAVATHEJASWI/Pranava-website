@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
-const Profile = () => {
+export default function Profile() {
   return (
     <div className="home" id="home">
       <div className="center fade-in">
