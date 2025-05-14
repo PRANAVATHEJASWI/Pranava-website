@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import '../styles/Profile.css'; // You can style with a separate CSS/SCSS file
